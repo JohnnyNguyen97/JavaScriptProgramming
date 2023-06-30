@@ -5,6 +5,9 @@ let hasBlackJack = false
 let isAlive = true
 let message = ""
 let messageEl = document.getElementById("message-el")
+//let sumEl = document.getElementById("sum-el")
+let sumEl = document.querySelector(".sum-el")
+
 // 2. Store the sum paragraph in a variable called sumEl
 
 function startGame() {
@@ -19,4 +22,5 @@ function startGame() {
         isAlive = false
     }
     messageEl.textContent = message
+    sumEl.textContent += " " + sum
 }

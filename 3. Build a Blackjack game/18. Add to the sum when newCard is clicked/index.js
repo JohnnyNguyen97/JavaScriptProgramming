@@ -1,5 +1,7 @@
 let firstCard = 10
 let secondCard = 4
+let thirdCard = 7
+
 let sum = firstCard + secondCard
 let hasBlackJack = false
 let isAlive = true
@@ -27,8 +29,9 @@ function startGame() {
 function newCard() {
     console.log("Drawing a new card from the deck!")
     // 1. Create a card variable, and hard code its value to a number (2-11)
-    
+    sum += thirdCard
     // 2. Add the new card to the sum variable
     
     // 3. Call startGame()
+    startGame()
 }
