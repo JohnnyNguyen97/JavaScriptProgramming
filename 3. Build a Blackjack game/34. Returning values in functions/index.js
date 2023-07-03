@@ -1,6 +1,6 @@
 let player1Time = 102
 let player2Time = 107
-
+let totalTime 
 // cmd+d - ctrl+d
 function getFastestRaceTime() {
     if (player1Time < player2Time) {
@@ -13,11 +13,19 @@ function getFastestRaceTime() {
 }
 
 // let fastestRace = getFastestRaceTime()
+
 // console.log(fastestRace)
 
 // Write a function that returns the total race time
 // Call/invoke the function and store the returned value in a new variable
 // Finally, log the variable out
 
+function totalRaceTime()
+{
+    totalTime = player1Time + player2Time
+    return totalTime
+}
+totalRaceTime()
+console.log(totalTime)
 
 
