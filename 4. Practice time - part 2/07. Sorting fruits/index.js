@@ -21,3 +21,5 @@ function sortingFruit()
 }
 
 sortingFruit()
+
+sortingFruit()
